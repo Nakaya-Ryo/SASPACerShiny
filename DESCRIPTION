@@ -1,10 +1,10 @@
 Package: SASPACerShiny
 Title: SASPACer for shiny
-Version: 0.0.1
+Version: 0.0.2
 Authors@R: 
     person("Ryo", "Nakaya", , "nakaya.ryou@gmail.com", role = c("aut", "cre"))
 Description: A Shiny application to create SAS package source folders/files and export as zip.
-License: MIT
+License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R (>= 4.0)
 Imports:
@@ -14,3 +14,7 @@ Imports:
     zip
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

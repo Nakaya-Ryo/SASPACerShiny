@@ -10,8 +10,15 @@ run_app()
 No return value, launches a Shiny app.
 }
 \description{
-This function launches SASPACer application
+This function starts a Shiny app that allows users to create SAS packages source
+folders/files.
+}
+\details{
+This function launches SASPACer shiny application. SASPACer is a tool originally made in SAS.
+The SAS package SASPACer is excel-based support tool for creating SAS packages, while
+SASPACer shiny app is atool to support creating SAS packages via user-friendly GUI.
 }
 \examples{
 # run_app()
+
 }

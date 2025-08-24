@@ -1,10 +1,18 @@
 #' Run SASPACer Shiny App
 #'
-#' This function launches SASPACer application
+#' This function launches SASPACer shiny application. SASPACer is a tool originally made in SAS.
+#' The SAS package SASPACer is excel-based support tool for creating SAS packages, while
+#' SASPACer shiny app is atool to support creating SAS packages via user-friendly GUI.
 #'
+#' @description
+#' This function starts a Shiny app that allows users to create SAS packages source
+#' folders/files.
+#'
+#' @usage run_app()
 #' @return No return value, launches a Shiny app.
 #' @examples
 #' # run_app()
+#'
 #' @import shiny bslib
 #' @importFrom DT datatable renderDT DTOutput
 #' @importFrom bslib page_sidebar sidebar

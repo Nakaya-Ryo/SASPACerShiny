@@ -1,0 +1,80 @@
+---
+title: "my-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Introduction
+
+This vignette introduces the **SASPACerShiny** package,  
+a Shiny-based graphical interface for the SAS package creation.  
+It provides a convenient way to create SAS packages without directly editing Excel or configuration files.  
+
+# Installation
+
+You can install the development version from GitHub:
+
+```r
+# install.packages("remotes")
+remotes::install_github("Nakaya-Ryo/SASPACerShiny")
+```
+
+Then load the package:
+
+```{r setup}
+library(SASPACerShiny)
+```
+
+# Quick Start
+
+The main entry point is the `run_app()` function, which launches the Shiny application:
+
+```{r eval=FALSE}
+run_app()
+```
+
+This will open the GUI in a new window.  
+
+# Basic Workflow
+
+1. **Prepare SAS package information to create**  
+   - Define your SAS package metadata  
+
+2. **Launch the Shiny app**  
+   ```r
+   SASPACerShiny::run_app()
+   ```
+
+3. **Interact with the GUI**  
+   - Add tabs for macros, datasets, formats, etc.  
+   - Export the source package files/folders as a zip  
+
+# Example: Creating a Minimal SAS Package
+
+```{r eval=FALSE}
+# Launch app
+run_app()
+
+# In the GUI:
+#  - Create new tab if necessary
+#  - Add a macro definition
+#  - Run and download zip
+```
+
+# References
+
+- SASPACer GitHub repository: <https://github.com/Nakaya-Ryo/SASPACer>  
+- SASPACerShiny GitHub repository: <https://github.com/Nakaya-Ryo/SASPACerShiny>  
+- [Shiny documentation](https://shiny.posit.co/r/)  
+- [Writing R vignettes](https://r-pkgs.org/vignettes.html)
+
