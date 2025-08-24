@@ -1,4 +1,4 @@
-# SASPACerShiny (latest version 0.0.1 on 23August2025)
+# SASPACerShiny (latest version 0.0.2 on 24August2025)
 An R package(Shiny app) to help creating SAS packages
 
 <img src="https://github.com/Nakaya-Ryo/SASPACer_shiny/blob/main/SASPACerShiny_logo.png?raw=true" alt="onigiri" width="300"/><img src="https://github.com/Nakaya-Ryo/SASPACer_shiny/blob/main/shiny.png?raw=true" alt="shiny" width="240"/>
@@ -22,6 +22,7 @@ You can learn from the following training materials by Bartosz Jablonski for sou
 [SAS Packages - The Way To Share (a How To)](https://github.com/yabwon/SAS_PACKAGES/blob/main/SPF/Documentation/SAS(r)%20packages%20-%20the%20way%20to%20share%20(a%20how%20to)-%20Paper%204725-2020%20-%20extended.pdf)  
 
 ## Version history  
+0.0.2(24August2025)	: Updated documentations  
 0.0.1(23August2025)	: Initial version
 
 ## What is SAS Packages?
