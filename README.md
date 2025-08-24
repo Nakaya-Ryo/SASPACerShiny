@@ -1,7 +1,7 @@
 # SASPACerShiny (latest version 0.0.1 on 23August2025)
 An R package(Shiny app) to help creating SAS packages
 
-<img src="https://github.com/Nakaya-Ryo/SASPACer_shiny/blob/main/SASPACerShiny_logo.png?raw=true" alt="onigiri" width="300"/>
+<img src="https://github.com/Nakaya-Ryo/SASPACer_shiny/blob/main/SASPACerShiny_logo.png?raw=true" alt="onigiri" width="300"/><img src="https://github.com/Nakaya-Ryo/SASPACer_shiny/blob/main/shiny.png?raw=true" alt="shiny" width="240"/>
 
 **"サスパッカー"** in the logo stands for **SASPACer** in Japanese. Original SASPACer is a SAS package to support creating SAS packages. SASPACer **Shiny** is an R shiny application with the same purpose. By providing GUI interface, SASPACer Shiny supports R users to create SAS packages. Once SAS package source folder/file structure is done by SASPACer Shiny, users should run %generatePackage() in SAS Package Framework(SPF) using SAS to complete creating SAS packages. By the way, original SASPACer is suite tool until completion of creating SAS packages.
 
